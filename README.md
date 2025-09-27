@@ -74,8 +74,8 @@ Este script fue construido como un **ejercicio de aprendizaje**:
 - Practicar Python (`argparse`, `pathlib`, recursión).
 - Explorar cómo manejar `.gitignore` desde código.
 - Aprender a estructurar un script como herramienta CLI.
-
-No busca reemplazar otras herramientas existentes, sino ser un recurso de práctica y aprendizaje.
+- 
+Se sabe que ya existen otras herramientas (y mucho más completas). Este proyecto solo busca ser un recurso de práctica y aprendizaje.
 
 ---
 
