@@ -215,7 +215,7 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     root = normalize_path(args.path)
-    skip_dirs = [] if args.skip_dirs else [str(Path(p).resolve().name) for p in args.skip_dirs]
+    skip_dirs = [] if not args.skip_dirs else [str(Path(p).resolve().name) for p in args.skip_dirs]
 
     spec = None
 
