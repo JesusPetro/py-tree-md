@@ -15,10 +15,9 @@ Este proyecto se realizó **con fines educativos**. Sé que ya existen herramien
 - Genera árboles de directorios con conectores Unicode (`├──`, `└──`, `│`).
 - Exporta salida en formato Markdown lista para documentación.
 - Soporta reglas de `.gitignore` (usando [pathspec](https://pypi.org/project/pathspec/)).
-- Bandera opcional para ocultar archivos y carpetas ocultas (`-I` o `--ignore-hidden`).
+- Bandera opcional para **ocultar archivos y carpetas cuyo nombre comience con `.`** (`-I` o `--ignore-hidden`).
 - Configurable hasta una profundidad máxima (`--max-depth`).
-- Permite omitir carpetas específicas con `--skip-dirs`.
-- Manejo seguro de errores de permisos y entornos virtuales.
+- Permite **no expandir el contenido** de las carpetas especificadas con `--skip-dirs`.
 - Funciona como:
   - **Herramienta CLI**
   - **Módulo Python importable**
